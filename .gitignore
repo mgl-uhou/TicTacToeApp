@@ -1,0 +1,46 @@
+# Gradle e builds
+.gradle/
+build/
+*/build/
+
+# Configuração local (não rastrear SDK path)
+local.properties
+
+# Aplicativos e binários gerados
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Pastas geradas
+/bin/
+/gen/
+/captures/
+/.externalNativeBuild/
+/.cxx/
+
+# IDE (Android Studio / IntelliJ)
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/vcs.xml
+
+# Keystores (senhas/sensitive)
+*.jks
+*.keystore
+
+# Arquivo do Google Services (local)
+google-services.json
+
+# Logs
+*.log
+*.hprof
+
+# Arquivos de SO
+.DS_Store
+Thumbs.db
